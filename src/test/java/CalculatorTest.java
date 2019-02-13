@@ -7,9 +7,9 @@ public class CalculatorTest {
     public void add()
     {
         Calculator c = new Calculator();
-        int output = c.square(5);//expecting the output to be 25
+        int output = c.square(6);//expecting the output to be 30
 
-        Assert.assertEquals(25, output);
+        Assert.assertEquals(30, output);
     }
 
     @Test
